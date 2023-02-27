@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: RFM;
+    src: url(./assets/fonts/r300.ttf);
+    font-weight: 300;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: RFM;
+    src: url(./assets/fonts/r500.ttf);
+    font-weight: 500;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: RFM;
+    src: url(./assets/fonts/r700.ttf);
+    font-weight: 700;
+    font-display: swap;
+}

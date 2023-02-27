@@ -1,0 +1,44 @@
+.product_page__top {
+    .images {
+        height: 500px;
+        overflow: hidden;
+    }
+}
+
+.product_page__top {
+    background-color: rgb(236, 242, 246);
+}
+
+
+.bottom_img {
+    background-color: #fffaf37a;
+    border: 1px solid #22242626;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px 0 0 0;
+
+    p {
+        display: flex;
+        margin-bottom: 5px;
+        align-items: center;
+    }
+
+    p.b {
+        font-weight: 600;
+
+        span {
+            color: #063b59;
+            margin-left: 5px;
+        }
+    }
+
+    svg {
+        height: 28px;
+        fill: #063b59;
+        color: #FFF;
+    }
+}
+
+.s_blog .box-text button :hover {
+    background-color: #b50101;
+}

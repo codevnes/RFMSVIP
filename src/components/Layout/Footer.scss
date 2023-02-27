@@ -1,0 +1,41 @@
+footer {
+    background-color: #12192a;
+
+    .sp_footer {
+        ul {
+            list-style: none;
+
+            .boxicon {
+                display: flex;
+                align-items: center;
+                padding: 15px 5px;
+                background-color: rgba(236, 242, 246, 0.1);
+                width: calc(100% - 100px);
+                border-radius: 5px;
+
+                img {
+                    width: 42px;
+                    float: left;
+                    margin-right: 10px;
+                }
+
+                span {
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: #E8AA42;
+                }
+
+                figure {
+                    margin: 0;
+                }
+            }
+        }
+
+        p {
+            margin-bottom: 0;
+            font-size: 14px;
+            font-weight: 500;
+            color: #FFF;
+        }
+    }
+}
