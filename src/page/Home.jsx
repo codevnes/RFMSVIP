@@ -1,8 +1,5 @@
 
 import './home.scss'
-import icon1 from '/src/image/icon1.png';
-import icon2 from '/src/image/icon2.png';
-import icon3 from '/src/image/icon3.png';
 
 import '../index.css'
 import WebSection from '../components/section/WebSection';
@@ -48,7 +45,7 @@ function HomePage() {
                             <div className='col-inner mt-2 md:mt-24'>
                                 <div className='icon-box flex items-center'>
                                     <div className='img'>
-                                        <img src={icon1} />
+                                        <img src="https://rfm-soft.com/wp-content/uploads/2023/02/icon-1.png" />
                                     </div>
                                     <div className="icon-box-text p-1">
                                         <h4 className="title">Thiết kế</h4>
@@ -61,7 +58,7 @@ function HomePage() {
                             <div className='col-inner mt=2 md:mt-12'>
                                 <div className='icon-box flex items-center'>
                                     <div className='img'>
-                                        <img src={icon2} />
+                                        <img src="https://rfm-soft.com/wp-content/uploads/2023/02/icon-2.png" />
                                     </div>
                                     <div className="icon-box-text p=1">
                                         <h4 className="title">Thiết kế</h4>
@@ -74,7 +71,7 @@ function HomePage() {
                             <div className='col-inner mt=2'>
                                 <div className='icon-box flex items-center'>
                                     <div className='img'>
-                                        <img src={icon3} />
+                                        <img src="https://rfm-soft.com/wp-content/uploads/2023/02/icon-6.png" />
                                     </div>
                                     <div className="icon-box-text p-1">
                                         <h4 className="title">Chiến lược nội dung</h4>
